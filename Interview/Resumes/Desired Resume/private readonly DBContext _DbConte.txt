@@ -1,0 +1,44 @@
+private readonly DBContext _DbContext;
+
+public User(DBContext DbContext) {
+	DbContext = DbContext;
+}
+
+private readonly IUserService _user;
+
+public User(IUserService User) {
+	_user = User;
+}
+
+
+
+User
+
+class Email
+
+Email
+
+
+AddSingletone(<IUserService>,<UserService>);
+
+IUserService User = new UserService();
+
+
+Table1
+ID
+1
+2
+3
+4
+5
+
+Table2
+Id
+1
+2
+4
+
+Select Table1.ID From Table1
+Left Join Table2 ON Table1.Id = Table2.ID AND Table2.Id IS null
+
+

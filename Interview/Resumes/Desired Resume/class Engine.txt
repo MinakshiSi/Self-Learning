@@ -1,0 +1,78 @@
+class Engine
+     { 
+         Engine() 
+         {
+          } 
+      } 
+      class Tyre
+      { 
+         Tyre()
+         { 
+          }
+       } 
+      class car 
+      { 
+          public Engine engine; 
+          public Tyre tyre;
+
+         car (Engine engine, Tyre tyre) 
+         { 
+             this.engine = engine; 
+             this.tyre = tyre;
+          } 
+     } 
+Is Dependencies are used right way? Or you see any issues?
+
+public class Program 
+{ 
+     static int a = 4; 
+     int b = 3; 
+    public static void main(String[] args)
+    { 
+        a = 10;
+	Program p = new Program();
+         p.b = 20;
+  } 
+}
+Do you see any compile time or run time issues in this code, if so, what are they?
+Bold
+Italic
+Strikethrough
+Link
+Heading
+Quote
+Code
+
+var arlist1 = new System.Collections.ArrayList();
+            arlist1.Add(1);
+            arlist1.Add("Bill");
+            arlist1.Add(" ");
+            arlist1.Add(true);
+            arlist1.Add(4.5);
+       
+            foreach (object item in arlist1)
+            {
+                if (item.Equals(true))
+               {
+                    arlist1.RemoveAt(3);
+               }
+            }
+            foreach (object item in arlist1)
+            {
+                Console.WriteLine(item);
+            }
+
+Bold
+Italic
+Strikethrough
+Link
+Heading
+Quote
+Code
+Bullets
+Numbers
+
+employee in employees
+name like 'Su%'
+select name
+

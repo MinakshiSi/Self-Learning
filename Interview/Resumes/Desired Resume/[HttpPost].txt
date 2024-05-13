@@ -1,0 +1,31 @@
+[HttpPost]
+private List<Employee> CreateEmployee(string data)
+{
+	Employee employee = _context.Employees.ToList();
+	return employee;
+}
+
+
+
+
+{
+"ID":"001",
+"Name",
+Department
+DOB
+}
+
+
+EmpID EmpName
+1	A
+2	B
+3	A	
+4	B
+
+UPDATE Employee
+SET EmpName = CASE WHEN EmpName = 'A' THEN 'B' ELSE 'A' END
+
+
+
+
+

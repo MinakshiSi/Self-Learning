@@ -1,0 +1,28 @@
+Kestral
+========
+
+It is a built-in web server 
+Developer don't need to configure a web server to run the application 
+
+Request Pipeline
+================
+
+Once a request reaches our application through Kestrel, it is processed by a no. of steps that make up the request pipeline. These steps are called middleware.
+
+If we don't configure any middleware in our application our application would simply do nothing when it receives a request.
+
+We have to plugin middleware for routing or to use static files
+Same for Authorization
+
+e.g
+
+UseRouting()
+UseStaticFiles()
+UseAuthorization()
+
+The order in which middleware is plugged in is important.
+Request data travels through the middleware in Sequence.
+
+
+Razor -> Razor is the HTML embed with C# code
+

@@ -1,0 +1,30 @@
+Desired Profile
+=================
+
+
+Responsibilities:
+
+- Design, develop, and deploy serverless applications and microservices using Dot Net Core and Azure Functions
+- Collaborate with architects, developers, and business stakeholders to understand requirements and translate them into technical designs and implementation plans
+- Write clean, efficient, and maintainable code following best practices and coding standards
+- Implement and configure Azure Functions, including triggers, bindings, and durable functions, to build scalable and event-driven applications
+- Integrate Azure Functions with other Azure services, such as Azure Storage, Azure Cosmos DB, and Azure Service Bus, to enable seamless data flow and communication
+- Develop and implement unit tests and automated tests to ensure code quality and reliability
+- Monitor and troubleshoot Azure Functions applications, identifying and resolving issues in a timely manner to minimize disruptions
+- Optimize performance and scalability of Azure Functions applications through code refactoring, caching, and other optimization techniques
+- Collaborate with DevOps teams to implement CI/CD pipelines and automate deployment processes
+- Stay up-to-date with the latest trends and advancements in Dot Net Core and Azure Functions development, contributing to continuous improvement and innovation within the team
+
+
+Requirements:
+
+- Strong proficiency in Dot Net Core development, including C# programming language and related frameworks and libraries
+- Proven experience in developing and deploying serverless applications using Azure Functions
+- Familiarity with Azure services and technologies, such as Azure Storage, Azure Cosmos DB, and Azure Service Bus
+- Solid understanding of microservices architecture and event-driven development principles
+- Experience with RESTful API development and integration
+- Knowledge of containerization technologies, such as Docker, and container orchestration platforms, such as Kubernetes, is a plus
+- Strong problem-solving and analytical skills, with the ability to troubleshoot complex issues and propose effective solutions
+- Excellent attention to detail and a strong commitment to code quality and best practices
+- Excellent communication and collaboration abilities, with the capability to work effectively in a team environment
+- Bachelor's degree in Computer Science, Engineering, or a related field is preferred, but not required

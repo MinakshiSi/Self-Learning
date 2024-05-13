@@ -1,0 +1,33 @@
+sealed class XYZ{
+ public XYZ t;
+  private Singleton () {
+	if(instance == null)
+		instance = new Singleton();
+	else 
+		instance = instance;
+	}
+}
+
+1. Fetch the record database
+2. Show the gridview
+3. Paging for gridview
+
+
+
+EmployeeManager
+
+public static DataSet GetEmployee() {
+ retrun EmployeeBuilder.GetEmployee();
+}
+
+public static GetEmployee() {
+	DataSet employees = null;
+	SqlConnection con = GetConnection();
+	SqlCommand cmd = new SqlCommand(con);
+	cmd.ComandType = ComandType.StroredPorcedure;
+        cmd.ExecureReader("uspGetEmployee").Tables[0];
+}
+
+
+
+

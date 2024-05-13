@@ -1,0 +1,128 @@
+Patching / Certificate / DR
+OS Patching - Quertaly once
+They will do seperate patching activities one for Linux and other for OS. For the patching Admin team will communicate with us. They need to restart so the server will be completely down. We have to check with Admin Team about the impact. We have to check with Vendors as well for the service down.
+Vendor Certificate Update
+F5 Upgrade
+EIS Sertificates
+Disaster Recovery
+
+
+
+Thread vs Task
+
+Task is TPL (Task Parllel Library)
+3 ps
+
+Pooling Threads
+Parellel processing
+Plus (Return, result, cancel, chain, async Await)
+
+Interfaces - Contract
+
+Delegate - Pointer to a function
+Why delegates? - CallBacks
+Delegates are callbacks which helps to communicate between async and parallel execution
+
+Multicast Delegates - We attach multiple functions to the delegates
+
+Event
+
+Events uses delegates internally
+Events are encapsulation over delegates and makes delegate safe.
+
+Events help to you impliment publisher subscriber model.
+
+//Events uses Delegates
+//Delegates are for callbacks, not encapsulated
+//Events publisher subscriber model, encapsulated
+
+why do we need OOP?
+You think in terms of real world example
+
+Class - A blueprint
+Objects - Instance of a class
+
+Encapsulation impliments Abstraction
+
+Inheritance defines a parent child relationship.
+
+Virtual keyword help us to define some logic in the parent class which can be overridden in the child class.
+
+Method overloading - Same method names with different signature in the same class
+
+Overriding - Using virtual keyword and overriding in child class.
+
+Polimorphism is an ability of object to act differently under different condition.
+
+Why do we need Abstract class
+
+Partial defined parent class
+
+Can we create instance of Abstract class? No
+Is it compulsory to impliment in child class? Yes
+
+Simple base class cannot be defined in a pure half way.
+
+Interfaces - Interface is a contract
+Cannot have logic
+All methods and all properties are public
+
+Contract - We do better change management, better control on the impact analysis
+Multiple Inheritance - If we need change in the contract we will create new interface
+Signature
+
+We cannot create instance of interface class
+We cannot use multiple inheritance with abstract class
+
+Interfaces are Implemented
+Abstracted class are inherited
+
+1. Interface is a Contract
+2. Interface helps to identify Abstraction
+3. Abstract classes are partially defined parent classes
+4. Interfaces are implimented, Abstract classes are inherited
+5. Yes Abstract class can be pulled to make it look like a interface but some where down the line you can have design issues.
+
+Constructure is special method that gets invoke automatically when instance of the class created.
+
+Parents constructor will get fire first.
+
+Child initializer -> parent initializer -> parent consructor -> child constructor
+
+child static constructor -> parent static constructor
+
+static sonstructor get fires when we access anything of the class 
+
+Shadowing is a process where child methods/properties/function etc can be hidden from parent during polymorphism.
+
+Method hiding and shadowing is same.
+
+SOLID
+========
+The main goal of SOLID is to minimize dependencies.
+Thus making code understand, maintain, and extend.
+
+SRP: A class should have one & only purpose.
+
+Class Customer
+Name 
+Address
+Vaildate Customer
+Discount
+
+Seperate Discount it is not realeted to customer
+
+OCP: A class should be open for extension and closed for modification.
+
+Suppose we got extra discount for some customer
+
+High Impact analysis
+The current/old consumer will be unaffected with the new changes
+
+LISKOV principle says that child class should be able to substitute the parent class seamlessly during object polymorphism.
+
+LISKOV substitution problem comes when requirement was not clear
+
+Proper code refactoring is required
+
+ISP: No code should be forced to depend on methods which is not concerned with them.

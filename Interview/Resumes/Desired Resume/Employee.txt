@@ -1,0 +1,69 @@
+Employee
+
+EmpId Name Salary DId
+
+Department
+
+DId Name
+
+
+Select e.*
+
+From Department d
+INNER JOIN eMPLOYEE E ON d.DId = e.DId
+
+Inner join (select E1.Did, E1.Eid, mAX(E1.sALARY)
+
+From DepRTMENT D1
+Inner Join Employee e1 on d1.DId = e1.DId
+GROUP BY Did, Eid) iq on E.Did = IQ.did, E.Eid = iQ.eID
+
+
+A = 10 B = 20 C = 30
+
+A->B
+B->C
+C->A
+
+C = A + B + C = 60
+B = C - A - B = 60-10-20 = 30
+A = C - A - B = 60-10-30 = 20
+C = C - A - B = 60-20-30 = 10
+
+
+Get the max salary by departement
+Swap 3 variables without using temprory variable
+How can we restrict action method from calling parent but can use in child
+Linq = Join 2 tables, Fetch name starting with a
+Questions about JQuery, Ajax call, JavaScript
+
+
+a = 5     a = 15  a->c
+b = 10    b = 5 b->a
+c = 15    c = 10 c->b
+
+a = a+b+c = 5+10+15 = 30
+
+b = a-b-c = 30-10-15 = 5
+c = a-b-c = 30-5-15 = 10
+a = a-b-c = 30-5-10 = 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
