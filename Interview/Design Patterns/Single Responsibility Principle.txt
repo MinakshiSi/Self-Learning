@@ -1,0 +1,55 @@
+Single Responsibility Principle
+A class should only have one reason to change
+Seperation of concerns - different classes handling different, independent task/problems
+
+Open-Closed Principle
+Classes should be open for extension but closed for modification
+Liskov Substition Principle
+You should be able to substitute a base type for a subtype
+Interface Segregation Principle
+Don't put too much into an interface; split into seperate interfaces
+YAGNI - You Ain;t Going to Need It
+Dependency Inversion Principle
+High-level modules should not depend upon low-level ones; use abstrations instead
+
+
+Patterns
+==========
+Creational Patterns
+Deal with creation (construction) of objects
+Structural Patterns
+Concern with the structure (e.g. class members)
+Behavioural Patterns
+They are all different 
+
+Builder Design Pattern     https://dotnettutorials.net/lesson/builder-design-pattern/
+=======================
+Product ==> Report
+Abstract Builder ==> ReportBuilder
+Abstract Director ==> ReportDirector
+Client ==> ReportGenerator
+Concrete Class ==> ExcelReport, PdfReport, CSVReport
+Adv
+----
+1. Complex Object Construction
+2. Immutable Objects Creation
+3. Constructing Objects with Numerous Parameters
+4. Readable Object Creation
+5. Reusable Object Creation Logic
+6. Fluent Interfaces
+7. Configurable Object Creation
+8. Variable Construction Process
+
+Factory Design Pattern
+=======================
+An object used to create another object
+In the above example we are creating objects of concrete class based on reportType on Client class. This is voilating Factory as we are exposing our concrete class to the client.So create another class ReportFactory and create object based on reportType
+Factory class ==> ReportFactory
+Adv
+----
+1. Simple Object Creation
+2. Performance-Critical Situations
+3. Limited Object Variations
+4. Increased Complexity
+5. Dependency Injection Frameworks
+6. Testing and Debugging Challenges

@@ -1,0 +1,11 @@
+Attributes & Skills - 
+
+Working knowledge of data structures and common design patterns
+C#, LINQ, SOA, WCF, SOLID Principles
+AngularJS, Angular, jQuery, HTML, CSS, javascript, web-services, Web API
+Proficiency with PL-SQL and ORM tools such as NHibernate / Entity Framework or any other ORM
+Unit Testing, Integration Testing using Moq, NUnit, MSTest
+Knowledge of .NET Architecture / Web deployments / IIS configuration
+ASP.NET MVC, ASP.NET Web API, AngularJS, jQuery
+Knowledge of .NET Architecture / Web deployments.
+Knowledge of Azure is advantageous.
